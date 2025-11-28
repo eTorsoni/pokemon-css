@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(199, 156, 106);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-content: normal;
+    gap: 16px;
+    height: 400px;
+}
+
+.item-1 {
+    flex-basis: 100px;
+}
+
+.item-4 {
+    flex-basis: 100px;
+}
+
+.item-5 {
+    flex-basis: 100px;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(139, 139, 139, 0.637);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: normal;
+    gap: 16px;
+}
+
+.item-1 {
+    flex-basis: 100px;
+}
+
+.item-4 {
+    flex-basis: 100px;
+}
+
+.item-5 {
+    flex-basis: 100px;
+}
